@@ -10,8 +10,8 @@ function elevarAlCuadrado(num) {
   return Math.pow(num, 2);
 }
 
-console.log(elevarAlCuadrado(6));  // Debería mostrar 36
-console.log(elevarAlCuadrado(0));  // Debería mostrar 0
-console.log(elevarAlCuadrado(4));  // Debería mostrar 16
+console.log(elevarAlCuadrado(6));  
+console.log(elevarAlCuadrado(0));  
+console.log(elevarAlCuadrado(4));  
 
 module.exports = elevarAlCuadrado;
